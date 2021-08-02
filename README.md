@@ -14,6 +14,7 @@
 - Protected Routes 
 - Dark and Light mode
 - Form validators and custom fields
+- AWS S3 bucket deploy 
 
 ## Installation
 
