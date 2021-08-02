@@ -18,6 +18,10 @@
 - Form validators and custom fields
 - AWS S3 bucket deploy 
 
+## Future improvements
+
+- Responsive support
+
 ## Installation
 
 Requires [Node.js](https://nodejs.org/)
