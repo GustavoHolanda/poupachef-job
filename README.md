@@ -1,5 +1,5 @@
 #  Poupachef Job
-###  A Front-end project created using Reactjs, typescript and SASS
+###  A Front-end project created using Reactjs, Typescript and SASS
 
 ### [Online Demo](http://gustavo-poupachef-job.s3-website-sa-east-1.amazonaws.com/)
 ### [Figma prototype](https://www.figma.com/file/MNG3LDaK3HiPYSigglP9Va/Poupachef?node-id=0%3A1)
