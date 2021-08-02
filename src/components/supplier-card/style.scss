@@ -1,0 +1,80 @@
+/* Supplier card default style */
+.supplier-card{
+    width: calc(25% - 25px);
+    min-width: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 12.5px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--background-secondary-color);
+    border: 1px solid #F8F8FA;
+    cursor: pointer;
+    transition: all .8s ease-in;
+    .supplier-card-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        span{
+            min-width: 130px;
+            text-align: right;
+        }
+    }
+    .supplier-card-body{
+        .supplier-owner{
+            background-color: var(--primary-color);
+            display: inline-block;
+            padding: 7px 18px;
+            border-radius: 18px;
+            margin-bottom: 10px;
+            span{
+                color:#ffffff;
+            }
+        }
+    }
+    .supplier-card-footer{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        button{
+            height: 33px;
+            padding: 8px 17px;
+            background-color: var(--background-secondary-color);
+            box-shadow: var(--box-shadow);
+            span{
+                font-size: 1.2em;
+            }
+        }
+        button:first-child{
+            margin-right: 10px;
+        }
+    }
+}
+
+
+/* Supplier card on hover */
+.supplier-card:hover{
+    transform: scale(1.025);
+}
+
+/* Deleting suppliers content style */
+.deleting-supplier{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 12px;
+    .loading-content{
+        margin-top: 0;
+        span{
+            color: white !important;
+        }
+    }
+}

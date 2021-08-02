@@ -1,0 +1,12 @@
+
+/* fab button default style */ 
+.fab-button{
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    background-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    span{
+        color: white;
+    }
+}

@@ -1,0 +1,54 @@
+/* supplier header styles*/
+.suppliers-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 0 12.5px;
+    .search-content{
+        position: relative;
+        svg{
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            width: 1.25em;
+            height: 1.25em;
+            fill: var(--text-base-color);
+        }
+        input{
+            box-shadow: var(--box-shadow);
+            width: 370px;
+            padding-left: 60px;
+        }
+    }
+}
+
+/* supplier body styles*/
+.suppliers-body{
+    padding-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* supplier without styles */
+.no-suppliers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    svg{
+        color: var( --loading-color);
+        height: 100px;
+        width: 100px;
+    }
+    span{
+        display: block;
+        font-size: 1.3em;
+        color: var(--text-title-color);
+        margin-top: 18px;
+    }
+}

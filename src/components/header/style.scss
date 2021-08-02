@@ -1,0 +1,31 @@
+/* header style */ 
+.header{
+    height: 75px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    box-shadow: var(--box-shadow);
+    img{
+        height: 30px;
+        width: auto;
+        cursor: pointer;
+    }
+}
+
+/* nav action section styles*/ 
+.nav-actions{
+    display: flex;
+    .darkmode{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 26px;
+        span{
+            font-size: 1.25em;
+            color: #fff;
+        }
+    }
+}

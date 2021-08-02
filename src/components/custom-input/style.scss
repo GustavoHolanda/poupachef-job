@@ -1,0 +1,42 @@
+/* field content styles */
+.field-content {
+    position: relative;
+    input {
+        width: 100%;
+    }
+    .input-error {
+        border: 2px solid red;
+    }
+    .label-error {
+        color: red;
+        position: absolute;
+        bottom: 4px;
+        left: 12px;
+        font-size: 11px;
+    }
+}
+
+/* input sizes style types */
+.super-small-input {
+    width: calc(20% - 12px);
+}
+
+.small-input {
+    width: calc(25% - 12px);
+}
+
+.half-input {
+    width: calc(50% - 12px);
+}
+
+.medium-input {
+    width: calc(30% - 12px);
+}
+
+.big-input {
+    width: calc(70% - 12px);
+}
+
+.full-input {
+    width: 100%;
+}

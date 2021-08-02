@@ -1,0 +1,34 @@
+
+/* form content style */
+.form-content {
+    margin-top: 50px;
+    .form-header {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 22px;
+        .primary-title {
+            font-size: 1.5em;
+        }
+        .secondary-title {
+            display: list-item;
+            margin-left: 32px;
+            font-size: 1.3em;
+        }
+    }
+    .form-body {
+        background-color: var(--background-secondary-color);
+        box-shadow: var(--box-shadow);
+        padding: 30px 35px 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: all .8s ease-in;
+        border-radius: 12px;
+    }
+}
+
+/* style first form-content  */
+.form-content:first-child {
+    margin-top: 0;
+}
+
