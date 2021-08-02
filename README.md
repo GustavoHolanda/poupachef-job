@@ -4,6 +4,8 @@
 ### [Online Demo](http://gustavo-poupachef-job.s3-website-sa-east-1.amazonaws.com/)
 ### [Figma prototype](https://www.figma.com/file/MNG3LDaK3HiPYSigglP9Va/Poupachef?node-id=0%3A1)
 
+![Screenshot](/src/assets/images/screenshot.png)
+
 ## Features
 
 - Prototypes created in Figma
