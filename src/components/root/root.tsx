@@ -20,7 +20,7 @@ function Root() {
                 <PublicRoute exact path="/" component={Login} />
                 <PrivateRoute path="/home" component={Suppliers} />
                 <PrivateRoute path="/supplier-detail" component={SupplierDetail} />
-                <PublicRoute component={Login} />
+                <PublicRoute path="*" component={Login} />
             </Switch>
         </Router>
     )
